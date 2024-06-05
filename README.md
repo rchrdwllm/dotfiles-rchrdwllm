@@ -10,11 +10,11 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Apps will open in their respective workspaces
     -   Workspace 1: Terminal
     -   Workspace 2: VS Code
-    -   Workspace 3: Browsers (Chrome, Microsoft Edge, and Firefox)
-    -   Workspace 4: Files (Thunar and `ranger`)
-    -   Workspace 5: Productivity (Craft)
+    -   Workspace 3: Browsers (Firefox Developer Edition)
+    -   Workspace 4: Productivity (Obsidian)
+    -   Workspace 5: Files (Thunar and `ranger`)
     -   Workspace 6: Social media (Discord and Telegram)
-    -   Workspace 7: Music (Spotify, Cider, and `cava`)
+    -   Workspace 7: Music (Apple Music)
 -   Toggle full screen: `Super + F`
 -   Launcher: `Super + D`
 -   Power menu: `Super + X`
@@ -23,13 +23,12 @@ Here are my configuration files for this rice. This rice relies heavily on [Pywa
 -   Terminal: `Super + Enter`
 -   Ranger: `Super + Shift + Enter`
 -   VS Code: `CTRL + Alt + V`
--   Chrome: `CTRL + Alt + W`
+-   Firefox Dev Edition: `CTRL + Alt + W`
 -   Discord: `CTRL + Alt + D`
--   Cider: `CTRL + Alt + M`
--   Spotify: `CTRL + Alt + S`
+-   Apple Music: `CTRL + Alt + M`
 -   Telegram: `CTRL + Alt + T`
 -   Open Facebook: `CTRL + Alt + F`
--   Open Craft: `CTRL + Alt + C`
+-   Open Obsidian: `CTRL + Alt + O`
 -   Open YouTube: `CTRL + Alt + Y`
 -   Some of the waybar configs:
     -   Right click on the wallpaper button on your bar to set a random wallpaper and set colors from it
