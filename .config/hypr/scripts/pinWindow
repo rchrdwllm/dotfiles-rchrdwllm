@@ -1,0 +1,5 @@
+#!/bin/sh
+
+window_class=$(hyprctl activewindow | grep "class" | awk '{print $2}')
+
+hyprctl dispatch pin $window_class
