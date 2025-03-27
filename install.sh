@@ -18,6 +18,9 @@ cp -r Wallpapers $HOME
 
 echo "Installing Pywal..."
 
+# This is a comment
+# TODO: Do this and that
+
 git clone https://github.com/eylles/pywal16 ~/Downloads/Programs/pywal16
 pip3 install --user ~/Downloads/Programs/pywal16 --break-system-packages
 
@@ -25,7 +28,7 @@ cd $HOME/.cache
 mkdir wal
 cd wal
 touch mode
-echo "dark" >| ${HOME}/.cache/wal
+echo "dark" >|${HOME}/.cache/wal
 
 ~/.config/waybar/scripts/wallpaper.sh
 
@@ -53,7 +56,7 @@ echo "Would you like to reboot now? (y/n)"
 read reboot
 
 if [ $reboot = "y" ]; then
-    sudo reboot
+  sudo reboot
 else
-    echo "Alright, you can reboot later by typing 'sudo reboot'"
+  echo "Alright, you can reboot later by typing 'sudo reboot'"
 fi
